@@ -3,7 +3,7 @@ class AccountsController < ApplicationController
     
   end
   def show
-    @account = Account.find(params[:id])
+    @account = Account.find(params[:id].to_i)
     #@accounts = Account.first.sub_accounts
   end
 end
