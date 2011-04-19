@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(:version => 20110418202340) do
 
   create_table "accounts", :force => true do |t|
     t.string   "company_name"
-    t.string   "parent_account_id"
+    t.integer   "parent_account_id"
     t.string   "name"
     t.string   "email"
     t.string   "extra"
