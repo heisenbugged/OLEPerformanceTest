@@ -1,5 +1,5 @@
 namespace :db do
-  namespace :development do
+  namespace :production do
     desc "Create records in the development database."
     task :fake_data => :environment do
       require 'faker'
