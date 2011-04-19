@@ -1,0 +1,95 @@
+/**CSS for home section**/
+.home-main-content{
+	font-size:14px;
+	color:#222;
+	line-height: 21px;
+}
+.roles {
+	background-color: #eeeeee; 
+	padding: 10px;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}
+.home-main-content ul {
+	margin: 30px;
+	margin-top: 10px;	
+	margin-bottom: 0px;
+}
+.home-main-content li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	background-color: #c1c1c1;
+	
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-left: 15px;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+}
+.home-main-content li a:hover {
+	background-color: #484f73;
+}
+.home-sales{
+	font-size:11px;
+	color:#222;
+}
+/**CSS for Admin Inventory section**/
+.course-inventory-content {
+	font-size:14px;
+	color:#222;
+}
+.course-inventory-content p {
+	color: #222;
+	font-size: 14px;
+}
+
+
+
+/* CSS For Attendee My Training section */
+._tr.top td { border-top: thin solid black; }
+._tr.bottom td { border-bottom: thin solid black; }
+._tr.row td:first-child { border-left: thin solid black; }
+._tr.row td:last-child { border-right: thin solid black; }
+
+
+/** CCS for buttons **/
+.general-button{
+	background: url("images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0.5em 0.4em 0.5em 0;
+	padding: 5px;
+	font-size: 11px;
+}
+
+/**css for table **/
+table.gray-table
+{
+	/*border:1px solid #ececec;*/
+	border-collapse: collapse;		 
+}
+table.gray-table thead>tr td
+{
+	color:#62615f;	
+	background-color:#e8e8e8;
+	border-left: 1px solid #9f9f9f; 
+}
+table.gray-table td
+{	
+	border-left: 1px solid #ececec;
+	border-bottom: 1px solid #9c9c9c;
+}
+
+#submit_upload_image{
+	float: left;
+	margin-left: 42px;
+	*+html margin-left: 30px;/*Applies only in IE*/
+}

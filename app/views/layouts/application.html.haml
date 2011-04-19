@@ -1,0 +1,18 @@
+!!! 5
+%html
+  %head
+    %title= "Eebos Performance Tests"
+    = csrf_meta_tag
+    = stylesheet_link_tag :all
+
+
+  %body
+    #outer_container
+      #inner-container
+        #header          
+          #logo= image_tag "master.png"
+          .clear
+
+        .clear
+        = yield
+

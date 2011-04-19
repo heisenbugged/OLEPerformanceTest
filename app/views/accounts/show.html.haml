@@ -1,0 +1,15 @@
+%h1 Direct Customers for #{@account.company_name}
+%table.light
+  %tr
+    %th Company Name
+    %th Prim H_S Name
+    %th Prim H_S Email
+  - @account.sub_accounts.each do |account|
+    %tr
+      %td= account.company_name
+      %td= account.name
+      %td= account.email      
+
+-# @accounts.each do |account|
+  = @account.company_name
+  %br/
